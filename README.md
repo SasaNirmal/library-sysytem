@@ -15,22 +15,6 @@ A modern and responsive full-stack **Library Management System** built using **N
 
 ---
 
-## 🛠️ Tech Stack
-
-| Frontend   | Backend      | Database |
-|------------|--------------|----------|
-| React.js   | Node.js      | MongoDB  |
-| Axios      | Express.js   | Mongoose |
-| Bootstrap  | JWT, Bcrypt  |          |
-
----
-
-## 📸 Screenshots
-
-> Add images from your project here (optional)
-
----
-
 ## 🧪 Installation
 
 ```bash
