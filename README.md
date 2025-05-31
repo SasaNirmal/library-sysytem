@@ -1,100 +1,57 @@
-LibrarySystem
- 
-A web-based Library Management System designed to simplify book borrowing, returns, and inventory management for libraries. This project provides an intuitive interface for librarians and users to manage library resources efficiently.
-Table of Contents
+# 📚 Library Management System
 
-About
-Features
-Technologies Used
-Installation
-Usage
-Contributing
-License
-Contact
+A modern and responsive full-stack **Library Management System** built using **Node.js**, **Express**, **MongoDB**, and **React.js**. It supports core features such as book management, member records, issue/return tracking, and admin functionalities.
 
-About
-The LibrarySystem is a comprehensive solution for managing library operations. It allows librarians to track books, manage user accounts, and handle borrowing/returning processes seamlessly. Users can browse the catalog, check book availability, and view their borrowing history. The system is designed to be scalable, user-friendly, and customizable.
-Features
+---
 
-Book Management: Add, update, and delete books in the library inventory.
-User Management: Register and manage user accounts (librarians and borrowers).
-Borrowing System: Track book loans, due dates, and returns.
-Search Functionality: Search books by title, author, or category.
-Dashboard: Intuitive dashboard for librarians to monitor library activities.
-Responsive Design: Accessible on both desktop and mobile devices.
+## 🚀 Features
 
-Technologies Used
+- 🔐 User and Admin Authentication
+- 📖 Add, Update, and Delete Books
+- 🧑‍💼 Manage Library Members
+- 🔁 Issue and Return Books
+- 📊 View Dashboard Statistics
+- 🌐 Built with RESTful API architecture
 
-Frontend: HTML, CSS, JavaScript [or specify your framework, e.g., React, Bootstrap]
-Backend: [Specify, e.g., Python with Django, Node.js with Express]
-Database: [Specify, e.g., MySQL, PostgreSQL, SQLite]
-Other Tools: [Specify, e.g., Git, Docker, etc.]
+---
 
-Installation
-Follow these steps to set up the project locally:
+## 🛠️ Tech Stack
 
-Clone the Repository:
-git clone https://github.com/SasaNirmal/LibrarySystem.git
-cd LibrarySystem
+| Frontend   | Backend      | Database |
+|------------|--------------|----------|
+| React.js   | Node.js      | MongoDB  |
+| Axios      | Express.js   | Mongoose |
+| Bootstrap  | JWT, Bcrypt  |          |
 
+---
 
-Install Dependencies:[Add specific commands based on your tech stack, e.g.,]
-npm install  # For Node.js projects
-pip install -r requirements.txt  # For Python projects
+## 📸 Screenshots
 
+> Add images from your project here (optional)
 
-Set Up the Database:
+---
 
-Configure your database settings in [config file, e.g., config.py or .env].
-Run migrations:python manage.py migrate  # For Django projects
+## 🧪 Installation
 
+```bash
+# 1. Clone the repository
+git clone https://github.com/SasaNirmal/library-management-system.git
 
+# 2. Go to the project folder
+cd library-management-system
 
+# 3. Install backend dependencies
+cd backend
+npm install
 
-Start the Application:
-npm start  # For Node.js
-python manage.py runserver  # For Django
+# 4. Install frontend dependencies
+cd ../frontend
+npm install
 
+# 5. Run backend
+cd ../backend
+npm start
 
-Access the Application:Open your browser and navigate to http://localhost:8000 (or the port specified).
-
-
-Usage
-
-Librarian Access:
-Log in with admin credentials to access the dashboard.
-Manage books, users, and borrowing records.
-
-
-User Access:
-Browse the book catalog and check availability.
-View borrowing history and due dates.
-
-
-Sample Credentials (for testing):
-Username: admin
-Password: admin123 [Update with actual credentials or remove if not applicable]
-
-
-
-Contributing
-We welcome contributions to enhance the LibrarySystem! To contribute:
-
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Commit your changes (git commit -m 'Add your feature').
-Push to the branch (git push origin feature/your-feature).
-Open a Pull Request.
-
-Please ensure your code follows the project’s coding standards and includes relevant tests.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-Contact
-For questions or feedback, reach out to:
-
-GitHub: SasaNirmal
-Email: [your-email@example.com] 
-
-
-⭐️ If you find this project useful, please give it a star on GitHub! ⭐️
-
+# 6. Run frontend
+cd ../frontend
+npm start
