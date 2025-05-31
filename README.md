@@ -1,6 +1,6 @@
 # 📚 Library Management System
 
-A modern and responsive full-stack **Library Management System** built using **Node.js**, **Express**, **MongoDB**, and **React.js**. It supports core features such as book management, member records, issue/return tracking, and admin functionalities.
+A modern and responsive full-stack **Library Management System** built using **Laravel**, **mysql**, and **postgresSQL**,. It supports core features such as book management, member records, issue/return tracking, and admin functionalities.
 
 ---
 
